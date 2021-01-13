@@ -1,0 +1,130 @@
+.page-container {
+    width:100%;
+    padding-bottom: 50px;
+    overflow:hidden;
+    display:flex;
+    flex-direction:column;
+}
+
+li {
+    display:block;
+    float: left;
+    padding: 0px 3px;
+    margin:auto;
+    
+}
+
+li a{
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+    display: block;
+    color: #202124;;
+    padding: 7px;
+    
+}
+
+
+ul {
+    padding:0;
+}
+
+li a:hover{
+    text-decoration: underline;
+}
+.navbar {
+display: block;
+width: 100%;
+ box-sizing: border-box;
+height:50px;
+margin: 0px;
+padding 0px;
+}
+
+.right {
+    float:right;
+}
+
+#sign-in {
+    color:#fff;
+    background-color: #4285f4;
+    padding: 7px 12px;
+    font-size: 13px;
+    border-radius: 1px;
+    font-weight: bold;
+    display:block;
+   
+}
+
+.main {
+    width:100%;
+    
+    display:block;
+    margin:auto;
+  
+}
+
+#logo {
+    padding-top: 130px;
+    padding-bottom: 28px;
+    display:block;
+    margin:auto;
+}
+
+#search-bar{
+    display:block;
+    margin:auto;
+    border-radius: 50px;
+    border-color: #dfe1e5;
+    border-style: solid;
+    border-width: 1px;
+    background-color: white;
+    width: 580px;
+    height: 45px;
+}
+
+input:hover {
+    box-shadow: 0 0 3px 0 #dfe1e5, 0 0 3px 0 rgba(0, 0, 0, 0.19);
+}
+
+.buttons {
+    display:block;
+    width:280px;
+    margin: auto;
+    padding-top:25px;
+}
+.search-buttons {
+    border-style: solid; 
+    border-width: 1px;
+    background-color: #f8f9fa;
+    border-color:  #f8f9fa;
+    padding: 8px 15px;
+    font-size: 14px;
+    font-family: arial, san-serif;
+    border-radius:5px;
+}
+
+footer {
+    width:100%
+}
+.foot-nav {
+    
+    height:45px;
+    background-color: #f8f9fa;
+    display:block;
+    position: absolute;
+    bottom: 0; 
+    width:99%;
+    border-top-width: 1px;
+    border-top-style: solid; 
+    border-top-color: rgb(212, 204, 204);
+    margin:auto;
+    overflow:hidden;
+    box-sizing: border-box;
+    padding-top:5px;
+}
+
+.foot-link{
+    color: grey;
+    font-size: 15px;
+}
